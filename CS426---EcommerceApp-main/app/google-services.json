@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "304350212941",
+    "firebase_url": "https://kobefood-8c164-default-rtdb.firebaseio.com",
+    "project_id": "kobefood-8c164",
+    "storage_bucket": "kobefood-8c164.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304350212941:android:ef0d5641e47e5cf54e7d04",
+        "android_client_info": {
+          "package_name": "com.example.midterm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304350212941-o3j8i74cc2edieg286oimqffp2k56jia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyj5Jzf4i7eDNPB0oenFPtP0AFRA1MtRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304350212941-o3j8i74cc2edieg286oimqffp2k56jia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

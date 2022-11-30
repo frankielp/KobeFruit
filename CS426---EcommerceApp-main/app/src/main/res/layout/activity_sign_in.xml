@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFE7"
+    tools:context=".SignIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editPhone"
+            android:hint="Phone Number"
+            android:textColorHint="@color/quantum_grey"
+            android:textColor="#03542D"
+            android:textSize="34sp"
+            android:inputType="phone"
+            android:text="20125125"
+            app:met_baseColor="#03542D"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="12"
+            app:met_minCharacters="8"
+            app:met_primaryColor="#03542D"
+            app:met_singleLineEllipsis="true">
+        </com.rengwuxian.materialedittext.MaterialEditText>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editPass"
+            android:hint="Password"
+            android:textColorHint="@color/quantum_grey"
+            android:textColor="#03542D"
+            android:text="1234"
+            android:textSize="34sp"
+            android:inputType="textPassword"
+            app:met_baseColor="#03542D"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#03542D"
+            app:met_singleLineEllipsis="true">
+        </com.rengwuxian.materialedittext.MaterialEditText>
+
+        <com.rey.material.widget.CheckBox
+            android:id="@+id/checkRemember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Material.Drawable.CheckBox"
+            android:text="Remember me"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/signinButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textColor="#03542D"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</RelativeLayout>
