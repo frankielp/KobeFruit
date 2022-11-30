@@ -43,8 +43,8 @@ Perform a call to the store’s owner using Google call intent
 To find to direction to any store that you want to go, just click on the marker and the direction will appear. Also, you can access the detailed function of google map whenever click on any marker, two other options with appear on the right bottom corner (locate the store and find the direction to the store).
 
 <p float="left">
-  <img src="/Pic1.jpg" width="300" />
-  <img src="/Pic2.jpg" width="300" /> 
-  <img src="/Picture1.png" width="300" />
+  <img src="/Pic0.jpg" width="250" />
+  <img src="/Pic2.jpg" width="250" /> 
+  <img src="/Picture1.png" width="250" />
 </p>
 
